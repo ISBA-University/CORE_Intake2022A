@@ -153,13 +153,13 @@ my.footer {
   right: 0;
 }
 
+
 .quellePanURL {
   font-size: 10px;
   position: absolute;
   right: 0;
   bottom: -5px;
 }
-
 
 .bold-last-item > ul > li:last-of-type,
 .bold-last-item > ol > li:last-of-type {

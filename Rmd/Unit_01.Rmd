@@ -66,6 +66,33 @@ layout: true
 <div style="position: absolute;left:400px;bottom:10px;color:ISBAblue;font-size:9px">`r r2symbols::sym('copyright')``r rmarkdown::metadata$author`</div>
 
 
+
+---
+name: Motivation
+class: left
+
+# Deutschland wird ärmer (?)
+
+<iframe width="1000" height="550" src="https://www.youtube.com/embed/oOtA82FfaMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+???
+
+* Erste 1:23min anschauen
+
+* Im Intro des Videos werden vier aktuelle Schlüsselfragen genannt:
+
+    * Woher bekommen wir die Energie?
+    * Wieviel ist unser Geld noch wert?
+    * Wo sind die Fachkräfte?
+    * Wie rüsten wir Deutschland für die Zukunft?
+
+* Ukraine-Krieg und Sanktionen gegen Russland
+  * Rohstoffe
+  * Moralische Dimension
+     * Konsequenzialismus: Sanktionen bringen nix, also lieber weiter heizen
+     * Deontologische Dimension: es zählt die Absicht
+
 ---
 name: motivation
 class: left
@@ -99,28 +126,6 @@ knitr::include_url("https://www.thepioneer.de/originals/others/articles/wir-brau
 
 
 * Die gesamte Rede, in der Sewing konkrete Vorschläge für die Themen Bildung und den europäischen Kapitalmarkt unterbreitet und seinen europäischen Lösungsansatz begründet, lesen Sie auf ThePioneer.de. Pflichtlektüre für alle, die Kanzler oder Kanzlerin werden wollen.
-
-
-
-
----
-name: Motivation2
-class: left
-
-# Aktuell: Ukraine-Krieg und Wohlstand
-
-```{r, echo=FALSE,out.width = "100%"}
-knitr::include_url("https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-auch-in-deutschland-wird-der-wohlstand-infolge-der-geopolitischen-zaesur-sinken-/28111410.html",height = "550px")
-```
-
-.quelle[Quelle: [Handelsblatt](https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-auch-in-deutschland-wird-der-wohlstand-infolge-der-geopolitischen-zaesur-sinken-/28111410.html).]
-
-???
-
-* Rohstoffe
-* Moralische Dimension
-  * Konsequenzialismus: Sanktionen bringen nix, also lieber weiter heizen
-  * Deontologische Dimension: es zählt die Absicht
 
 
 ---
@@ -364,13 +369,16 @@ class: left
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
 knitr::include_url('https://service.destatis.de/DE/vgr-monitor-deutschland/bip.html',height='480px')
 ```
-.quellePan[Quelle: [Destatis (2022)](https://www.dashboard-deutschland.de/#/themen/konjunktur_wirtschaft/preise).]
+
+.quellePanURL[Quelle: [Destatis (2022)](https://www.dashboard-deutschland.de/#/themen/konjunktur_wirtschaft/preise).]
+
 ]
 .panel[.panel-name[Historisch]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
 knitr::include_graphics('../images/unit01/bpb_langeReihe_Nachfragekomponenten_(Rahlf_2015).png')
 ```
-.quellePan[Quelle: [Bundeszentrale für Politische Bildung (2015)](https://www.bpb.de/system/files/dokument_pdf/4938_zb_dtindaten_gesamt.pdf)]
+
+.quellePanURL[Quelle: [Bundeszentrale für Politische Bildung (2015)](https://www.bpb.de/system/files/dokument_pdf/4938_zb_dtindaten_gesamt.pdf)]
 
 ]
 ]
