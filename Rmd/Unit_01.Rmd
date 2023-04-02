@@ -324,9 +324,9 @@ class: left
 # Bruttoinlandsprodukt 2021
 
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('../images/unit01/BIP_2021.PNG',height='550px')
+knitr::include_url('../images/unit01/BIP_2022.PNG',height='550px')
 ```
-.quelle[Quelle: [Destatis (2022)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf).]
+.quelle[Quelle: [Destatis (2023)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf).]
 
 
 
@@ -340,7 +340,7 @@ class: left
 .panelset[
 .panel[.panel-name[Aktuell]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_graphics('../images/unit01/Entstehung_2021_(Destatis_S11).png')
+knitr::include_graphics('../images/unit01/Entstehung_2022_(Destatis_S11).png')
 ```
 .quellePan[Quelle: [Destatis (2022)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf).]
 ]
@@ -391,7 +391,7 @@ class: left
 
 # Verteilungsrechnung (Primäreinkommensentwicklung)
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_graphics('../images/unit01/Primaereinkommen_seit1991_(Destatis_2022).png')
+knitr::include_graphics('../images/unit01/Primaereinkommen_seit1991_(Destatis_2023).png')
 ```
 .quelle[Quelle: [Destatis (2022)](https://www.dashboard-deutschland.de/#/themen/konjunktur_wirtschaft/preise).]
 
