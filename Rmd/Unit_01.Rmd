@@ -358,6 +358,8 @@ knitr::include_graphics('../images/unit01/bpb_langeReihe_Entstehung_(Rahlf_2015)
 Hinweis: Strukturwandel
 
 
+
+
 ---
 name: Verwendung
 class: left
@@ -366,11 +368,14 @@ class: left
 
 .panelset[
 .panel[.panel-name[Aktuell]
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://service.destatis.de/DE/vgr-monitor-deutschland/bip.html',height='480px')
+```{r, include=FALSE}
+source(xfun::from_root("R/VGR_Verwendung.R"))
+```
+```{r, echo=FALSE,fig.align='center',out.width='90%'}
+p
 ```
 
-.quellePanURL[Quelle: [Destatis (2022)](https://www.dashboard-deutschland.de/#/themen/konjunktur_wirtschaft/preise).]
+.quellePanURL[Quelle: Eigene Darstellung. Datenbasis: [Destatis (2023)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/inlandsprodukt-erste-ergebnisse-pdf-2180110.pdf?__blob=publicationFile).]
 
 ]
 .panel[.panel-name[Historisch]
@@ -1006,9 +1011,43 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 ```
 
 
+---
+name: DezentraleOrdnung
+class: left
+
+# Dezentrale und freiheitliche Ordnungen
+
+* Macht und Machtbegrenzung
+
+--
+
+* persönliche vs. wirtschaftliche Freiheit
+
+--
+
+* Nutzung dezentralen Wissens (F.A. Hayek)
+
+--
+
+* Kreativität, Innovation und schöpferische Zerstörung (Schumpeter)
+
+--
+
+* Produktivität, Standards und Pfadabhängigkeiten
+
+--
+
+* Haftungsfragen (W. Eucken)
 
 
 
+---
+name: Ordnung-Innovation
+class: left
+
+# Wirtschafts-/Gesellschaftsordnung und Innovation
+
+<iframe width="1100" height="500" src="https://www.youtube.com/embed/z2hj_zfrG6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 name: Ricardo
@@ -1016,13 +1055,131 @@ class: inverse, middle, center
 
 # Teil 3
 
+## Ökonomisches Prinzip und Arbeitsteilung
+
+.blockquote[Allokation vs. Distribution]
+
+.blockquote[Spezialisierung und Wirtschaftsordnung]
+
+
+
+
+
+
+---
+name: EcoPrinciple
+class: left
+
+# Grundidee: Ökonomisches Prinzip und Arbeitsteilung
+
+* Arbeitsteilung ermöglicht Spezialisierung
+
+```{r, echo=FALSE,fig.align='center',out.width='90%'}
+knitr::include_graphics('../images/unit01/arbeitsteilung_(Goodwin_S21).png')
+```
+.quelle[Bildquelle: Goodwin (2012, S. 21).]
+
+
+* Spezialisierung ermöglicht Produktivitätssteigerungen
+
+
+---
+name: NachteileSpez
+class: left
+
+# Gesellschaftliche "Nebenwirkungen" der Arbeitsteilung
+
+* Spezialisten haben Erpressungspotenzial/Macht (Bsp. Pilotenstreiks).
+
+* Konzentrationstendenzen/Monopolisierung (Bsp.
+Internetökonomie/Plattformökonomie).
+
+* Komplexität der Ordnung und Ohnmachtsgefühl (Marx:
+Entfremdung).
+
+* Spezialisierung und Monotonie (Smith (!): Entfremdung).
+
+
+---
+name: AllokationDistribution
+clas: left
+
+# Allokation vs. Distribution
+
+.pull-left[
+
+```{r, echo=FALSE,fig.align='center',out.width='100%'}
+knitr::include_graphics('../images/unit01/allokation_(pixabay).jpg')
+```
+
+`r fa("circle-right")` Effiziente Ressourcenverwendung
+("Koordination der Spezialisten")
+
+]
+.pull-right[
+<br>
+<br>
+```{r, echo=FALSE,fig.align='center',out.width='100%'}
+knitr::include_graphics('../images/unit01/kuchen_(pixabay).jpg')
+```
+<br>
+<br>
+`r fa("circle-right")` "gerechte" Verteilung des Sozialprodukts
+
+]
+
+
+
+.center[**Alternative Lösungsstrategien: Die Frage der Wirtschaftsordnung!**]
+
+.quelle[Bildquelle: pixabay.com.]
+
+
+???
+
+* Allokations-/Lenkungsproblem ("Koordination der Spezialisten"):
+    * **Was** (welche Güter sollen produziert werden)?
+    * **Wieviel** (in welcher Menge sollen die Güter hergestellt werden)?
+    * **Wie** (auf welche Weise, mit welcher Technologie)?
+    * **Wann?** (Konsumgüter vs. Investitionsgüter)
+    * **Wo?** (Standort der Produktion vs. Ort des Konsums)
+* Distributions-/Verteilungsproblem (Verteilung des
+Sozialprodukts)
+
+
+**Können Allokation und Distribution isoliert betrachtet werden (vgl. Keen)?**
+
+
+---
+name: OrgSpontOrd
+clas: left
+
+# Allokation: Organisation vs. Spontane Ordnung
+
+.panelset[
+.panel[.panel-name[Organisation vs. Spontane Ordnung]
+```{r, echo=FALSE,fig.align='center',out.width='65%'}
+knitr::include_graphics('../images/unit01/orga_vs_spontane_Ordnung_(Goodwin_S22).png')
+```
+.quellePanURL[Bildquelle: Goodwin (2012, S. 22).]
+]
+.panel[.panel-name[Komplexität]
+<iframe width="900" height="480" src="https://www.youtube.com/embed/IYO3tOqDISE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
+]
+
+---
+name: Ricardo
+class: inverse, middle, center
+
+# Teil 4
+
 ## Spezialisierung und Tauschgewinne
+
 
 .blockquote[Adam Smith: Absolute Vorteile und Hausvaterregel]
 
 .blockquote[David Ricardo: Relative (komparative Vorteile)]
-
-
 
 
 ---
@@ -1275,7 +1432,7 @@ class: left
 name: Distrib
 class: inverse, center, middle
 
-# Teil 4
+# Teil 5
 
 ## Verteilung des Wohlstands
 

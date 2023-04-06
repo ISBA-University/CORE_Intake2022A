@@ -1,6 +1,6 @@
 ---
 title: "VO Einführung in die VWL"
-subtitle: "Intake 2021 B"
+subtitle: "Intake 2022 A"
 author: "Prof. Dr. Jörg Schoder"
 institute: "ISBA" 
 date: "`r Sys.Date()`"
