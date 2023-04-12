@@ -36,7 +36,7 @@ style_xaringan(text_color = "#232461",inverse_text_color = "#FFFFFF",inverse_bac
 xaringanExtra::use_xaringan_extra(c("tile_view","scribble","panelset","tachyons"))
 xaringanExtra::style_panelset_tabs(font_family = "inherit")
 #xaringanExtra::use_search(show_icon = TRUE)
-#weitere: "share_again","animate_css", "webcam","freezeframe","clipboard","fit_screen","extra-styles" 
+#weitere: "share_again","animate_css", #"webcam","freezeframe","clipboard","fit_screen","extra-styles" 
 ``` 
 
 ```{r setup, include=FALSE}
@@ -49,7 +49,7 @@ library(latex2exp)
 
 
 
-## Intake 2021 B  
+## Intake 2022 A  
 
 ### Prof. Dr. Jörg Schoder
 
@@ -73,7 +73,7 @@ class: left
 # Entwicklung von Wohlstand und Bevölkerung
 
 ```{r, echo=FALSE,out.width = "100%"}
-knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-01.svg",height = "550px")
+knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-01.svg", height = "550px")
 ```
 
 .quelle[Quelle: [CORE - The Economy](https://www.core-econ.org/the-economy/book/text/02.html#subheadline).]
@@ -141,6 +141,7 @@ Zur Beantwortung benötigen wir ein anderes Modell
 name: Produktionsfunktion
 class: left
 
+
 # Baustein 1: Produktionsfunktion
 
 .blockquote[
@@ -150,7 +151,7 @@ Eine (ökonomische) Produktionsfunktion beschreibt den Zusammenhang zwischen Fak
 
 <center>
 ```{r Fig:Prodfkt,echo=FALSE, message=FALSE,fig.align="center",out.width="67%"}
-knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-14-b-a.svg",height = "280px")
+knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-14-b-a.svg",height = "290px")
 ```
 </center>
 .quelle[Bildquelle: [CORE Unit 2](https://www.core-econ.org/the-economy/book/text/02.html#figure-2-14ba).]
@@ -196,7 +197,7 @@ class: left
 .panelset[
 .panel[.panel-name[Aufgabe 2.6]
 ```{r EX-2-6,echo=FALSE, message=FALSE}
-knitr::include_url("https://www.core-econ.org/the-economy/book/text/02.html#exercise-26-the-farmers-production-function",height = "450px")
+knitr::include_url("https://www.core-econ.org/the-economy/book/text/02.html#exercise-26-the-farmers-production-function", height = "450px")
 ```
 ]
 .panel[.panel-name[Lösungsskizze]
@@ -209,10 +210,11 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/text/02.html#exer
 ]
 .panel[.panel-name[Reflektion]
 ```{r EX-2-6ref,echo=FALSE, message=FALSE}
-knitr::include_url("https://www.infosperber.ch/wirtschaft/landwirtschaft/die-minus-kalorien-der-schweizer-landwirtschaft/",height = "450px")
+knitr::include_url("https://www.infosperber.ch/wirtschaft/landwirtschaft/die-minus-kalorien-der-schweizer-landwirtschaft/", height = "450px")
 ```
 ]
 ]
+
 
 ???
 
@@ -231,8 +233,9 @@ on the production function where the **average product (Tabelle)** of the farmer
 * Based on these assumptions, grain production results in a **net benefit.**
 * Finally, discuss the limitations of this calculation.
 
-
 [Minus-Kalorien Landwirtschaft Schweiz](https://www.infosperber.ch/wirtschaft/landwirtschaft/die-minus-kalorien-der-schweizer-landwirtschaft/)
+
+
 
 
 ---
@@ -248,7 +251,7 @@ class: left
 ]]
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_url('https://www.geogebra.org/m/aqazjzze',height='350px')
+knitr::include_url('https://www.geogebra.org/m/aqazjzze', height='350px')
 ```
 
 
@@ -268,7 +271,9 @@ class: left
 knitr::include_url("https://www.core-econ.org/the-economy/book/text/02.html#exercise-27-are-people-really-like-other-animals",height = "550px")
 ``` 
 
+
 ???
+
 * **Introduction**
   * The aim of this question is to make students reflect on the difference between
 models in natural and social science.
@@ -300,6 +305,7 @@ class: left
 knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-16-e.svg",height = "550px")
 ```
 
+
 ???
 
 The two diagrams together explain the Malthusian population trap. Population will be constant when the wage is at subsistence level, it will rise when the wage is above subsistence level, and it will fall when the wage is below subsistence level.
@@ -315,7 +321,9 @@ class: left
 knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-15.svg",height = "550px")
 ``` 
 
+
 ???
+
 In a nutshell: Während die Bevölkerung linear oder gar exponentiell wächst, steigt die Produktion nur unterlinear. 
 
 
@@ -324,8 +332,8 @@ In a nutshell: Während die Bevölkerung linear oder gar exponentiell wächst, s
 ---
 name: Trap
 class: left
-# Die Malthusianische Falle und der Hockeystick
 
+# Die Malthusianische Falle und der Hockeystick
 
 ```{r, echo=FALSE,out.width = "100%"}
 knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure-02-18.svg",height = "550px")
@@ -333,6 +341,7 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 
 
 ???
+
 * Beulenpest 
 
 * The relationship between real wages and population in England between 1280-1600 show evidence of this "Malthusian trap".
@@ -365,20 +374,24 @@ class: inverse, center,middle
 ---
 class: left
 
+
 # Ökonomik als Methode
 
 
 .pull-left[
 ```{r, echo=FALSE}
-knitr::include_url("https://www.wiwo.de/images/john-maynard-keynes-der-brite-forderte-eine-aktive-rolle-des-staates-in-wirtschaftskrisen/4881664/1-format7001.jpg",height = "550px")
+knitr::include_graphics("../images/unit02/Keynes_(wiwo).jpg")
 ```
+.quelle[Bildquelle: [wiwo.de](https://www.wiwo.de/images/john-maynard-keynes-der-brite-forderte-eine-aktive-rolle-des-staates-in-wirtschaftskrisen/4881664/1-format7001.jpg)]
 ]
 .pull-right[
 <br>
 <br>
 <br>
 .center[
-"Economics is a method rather than a doctrine, an apparatus of the mind, a technique of thinking which helps the possessor to draw correct conclusions. … Economics is a science of thinking in terms of models joined to the art of choosing models which are relevant to the contemporary world."
+"Economics is a method rather than a doctrine, an apparatus of the mind, a technique of thinking which helps the possessor to draw correct conclusions.
+<br>
+...Economics is a science of thinking in terms of models joined to the art of choosing models which are relevant to the contemporary world."
 .tr[
 — (J.M. Keynes)
 ]
@@ -512,7 +525,9 @@ class: left
 
 4. Analysen der Effekte von Veränderungen ökonomischer Größen
 
+
 ???
+
 * Warum Modelle?
 * Realität ist zu komplex, sodass Abstraktion (per Annahmen) notwendig ist.
    * Modelle bieten die Möglichkeit die Realität in vereinfachter Weise darzustellen.
@@ -599,10 +614,11 @@ knitr::include_url("../images/unit02/Nobel_2019.PNG",height = "480px")
 
 * Natürliche Experimente
 ]
-.panel[.panel-name[Exkurs]
+.panel[.panel-name[Liste der "Nobelpreise"]
 ```{r, echo=FALSE,out.width = "100%"}
-knitr::include_url("https://www.nobelprize.org/prizes/lists/all-prizes-in-economic-sciences/",height = "480px")
+knitr::include_url("../images/unit02/Nobelpreise_(nobelprize.org)_small.PNG",height="480px")
 ```
+.quellePanURL[[nobelprize.org](https://www.nobelprize.org/prizes/lists/all-prizes-in-economic-sciences/)]
 ]
 ]
 
@@ -630,6 +646,7 @@ name: EX-ModelDesign
 class: left
 
 # Diskussion: Modelle in den Wirtschaftswissenschaften
+
 .panelset[
 .panel[.panel-name[Aufgabe 2.1]
 ```{r EX-2-1,echo=FALSE, message=FALSE}
@@ -645,6 +662,7 @@ knitr::include_url("https://sbahn.berlin/interaktives-liniennetz/")
 
 
 ???
+
 **Introduction**
 The aim of this question is to encourage students to reflect on why we use models and other cognitive simplifications, and what their strengths and weaknesses are. Students should appreciate that a model is always a reduction of reality and that the choices made in terms of what to include in a model should be guided by the model’s purpose. The models we use in economics are never a perfect representation of reality, and often designed to answer very specific questions.
 
@@ -790,6 +808,7 @@ class: left
 
 
 ???
+
 wissenschaftliche/technische Revolution: Invention vs. Innovation
 
 
@@ -816,6 +835,7 @@ class: left
 
 
 ???
+
 Economic rent gives us a simple decision rule:
 
 If action A would give you an economic rent (and nobody else would suffer): Do it!
@@ -843,7 +863,9 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 ]
 ]
 
+
 ???
+
 * Produktionspläne
 
 * Herstellung von 100m Tuch mit unterschiedlichen Kombinationen von Arbeit und Kohle möglich
@@ -869,6 +891,7 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 
 
 ???
+
 * Firms aim to maximise their profit, which means producing cloth at the least possible cost.
 
 * Ausgangssituation: Arbeitskosten: 10, Kohle 20
@@ -979,6 +1002,7 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 ```   
 
 ???
+
 * Veränderung der Kosten: Kohle 10, Arbeit 5
 
 * **B now costs more than A**  
@@ -1018,6 +1042,7 @@ CEO von DaimlerTrucks:Es braucht drei Voraussetzungen, damit das erfolgreich wir
 ---
 class: left
 name: Schumpeter
+
 # Schöpferische Kraft der Zerstörung (Schumpeter)
 
 
@@ -1046,6 +1071,7 @@ knitr::include_url("https://www.core-econ.org/the-economy/book/images/web/figure
 ]  
 
 ???
+
 English wages were higher than wages elsewhere, and coal was cheaper in Britain than in the other countries in the chart (Fig.2.10)
 
 Shift to a lower-cost technology
@@ -1090,6 +1116,7 @@ knitr::include_graphics("../images/unit03/Stromproduktion.png")
 
 
 ???
+
 **Permanenter** technologischer Fortschritt
 
 

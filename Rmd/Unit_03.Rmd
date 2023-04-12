@@ -50,7 +50,7 @@ library(latex2exp)
 
 
 
-## Intake 2021 B  
+## Intake 2022 A  
 
 ### Prof. Dr. Jörg Schoder
 
