@@ -43,6 +43,7 @@ xaringanExtra::style_panelset_tabs(font_family = "inherit")
 options(htmltools.dir.version = FALSE)
 library(tidyverse)
 library(latex2exp)
+library(countdown)
 ```
 
 # VO Einführung in die VWL
@@ -271,6 +272,13 @@ class: left
 knitr::include_url("https://www.core-econ.org/the-economy/book/text/02.html#exercise-27-are-people-really-like-other-animals",height = "550px")
 ``` 
 
+```{r,echo=FALSE}
+countdown::countdown(
+minutes = 5,
+seconds = 0,
+warn_when = 30
+)
+```
 
 ???
 
