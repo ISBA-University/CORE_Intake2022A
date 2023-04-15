@@ -42,6 +42,7 @@ xaringanExtra::style_panelset_tabs(font_family = "inherit")
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 library(tidyverse)
+library(fontawesome)
 library(latex2exp)
 library(countdown)
 ```
@@ -617,12 +618,31 @@ class: left
 knitr::include_url("../images/unit02/Nobel_2019.PNG",height = "480px")
 ```
 ]
-.panel[.panel-name[Arten von Experimenten]
-* Labor-Experimente
 
-* Natürliche Experimente
+.panel[.panel-name["Nobelpreis" 2021]
+```{r, echo=FALSE,out.width = "100%"}
+knitr::include_url("https://www.tagesschau.de/wirtschaft/nobelpreis-wirtschaft-131.html",height = "480px")
+```
 ]
-.panel[.panel-name[Liste der "Nobelpreise"]
+.panel[.panel-name[Experimente]
+* **Labor-Experimente**
+
+  `r fa("circle-right")` Beispiel: Ultimatum-Spiel
+
+```{r ClassEx1,echo=FALSE, message=FALSE,out.width='15%',fig.align='center'}
+knitr::include_graphics('../images/ClassEx-link.svg')
+```
+
+* **Feld-Experimente**
+
+  `r fa("circle-right")` Freakonommics Radio Podcast: [Are the        Rich Really Less Generous Than the Poor?](https://freakonomics.com/podcast/rich-really-less-generous-poor/) 
+
+* **Natürliche Experimente**
+
+    `r fa("circle-right")` Freakonommics Radio Podcast: [You Make Me Feel Like a Natural Experiment](https://freakonomics.com/podcast/you-make-me-feel-like-a-natural-experiment/) 
+
+]
+.panel[.panel-name[Nobel-Liste]
 ```{r, echo=FALSE,out.width = "100%"}
 knitr::include_url("../images/unit02/Nobelpreise_(nobelprize.org)_small.PNG",height="480px")
 ```
@@ -632,6 +652,8 @@ knitr::include_url("../images/unit02/Nobelpreise_(nobelprize.org)_small.PNG",hei
 
 
 ???
+
+* Laborexperiment bspw. mit Ultimatumspiel
 
 * Nobelpreis 2019 an Banerjee, Duflo und Kremer
 
