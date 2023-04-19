@@ -74,7 +74,7 @@ class: left
 
 .pull-left[
 ```{r, echo=FALSE}
-knitr::include_url("https://www.wiwo.de/images/john-maynard-keynes-der-brite-forderte-eine-aktive-rolle-des-staates-in-wirtschaftskrisen/4881664/1-format7001.jpg",height = "550px")
+knitr::include_graphics("../images/unit02/Keynes_(wiwo).jpg")
 ```
 ]
 
@@ -89,7 +89,6 @@ problem for a great while. For three hours a day is quite enough to satisfy the 
 Thus for the first time since his creation man will be faced with his real, his permanent problem-how to use his freedom from pressing economic cares, how to occupy the leisure, which science and compound interest will have won for him, to live wisely and agreeably and well."
 ]
 
-
 .quelle[J.M. Keynes (1930): [Economic Possibilities for our
 Grandchildren](http://www.econ.yale.edu/smith/econ116a/keynes1.pdf)]
 ]
@@ -103,6 +102,7 @@ Many have given voice to a shorter working week. Keynes predicted in 1930 that w
 ---
 name: Gliederung
 class: inverse, left, middle
+
 # Was lernen wir?
 
 ## Inhaltliche Leitfragen
@@ -135,14 +135,14 @@ clasS: left
 ```{r, echo=FALSE,fig.align='center',out.width = "60%"}
 knitr::include_graphics("../images/unit03/mikro_wordcloud.png")
 ```
-.quellePan[Bildquelle: 
+.quellePanURL[Bildquelle: 
 [Universität Regensburg](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-roider/home/index.html).]
 ]
 .panel[.panel-name[Makro]
 ```{r, echo=FALSE,fig.align='center',out.width = "60%"}
 knitr::include_graphics("../images/unit03/makro_wordcloud.png")
 ```
-.quellePan[Bildquelle: shutterstock.]
+.quellePanURL[Bildquelle: shutterstock.]
 ]
 .panel[.panel-name[Perspektiven]
 <table>
@@ -197,11 +197,11 @@ knitr::include_graphics("../images/unit03/makro_wordcloud.png")
 </table>
 
 .panel[.panel-name[Fun]
-```{r, echo=FALSE,fig.align='center',out.width = "100%"}
+```{r, echo=FALSE,fig.align='center',out.width = "60%"}
 knitr::include_graphics("../images/unit03/Mikro_vs_Makro.png")
 ```
 
-.quellePan[Bildquelle: [tumblr.com](https://econsociology.tumblr.com/post/105479023240)]
+.quellePanURL[Bildquelle: [tumblr.com](https://econsociology.tumblr.com/post/105479023240)]
 ]
 ]
 ]
@@ -1096,9 +1096,10 @@ Supposedly Irrelevant Factors (SIF) sind Faktoren, für die in Studien ein signi
 * SIFs und Nudging (bspw. Organspende, Altersvorsorge etc.)
 ]
 .panel[.panel-name[Lesetipp]
-```{r, echo=FALSE,out.width = "100%",fig.align='center'}
-knitr::include_url('https://www.penguin.com.au/books/misbehaving-9780241951224',height = '450px')
+```{r, echo=FALSE,out.width = "40%",fig.align='center'}
+knitr::include_graphics('../images/unit03/misbehaving_book_(penguin).jpg')
 ```
+.quellePanURL[Bildquelle: [penguin.com](https://www.penguin.com.au/books/misbehaving-9780241951224)]
 ]
 ]
 
@@ -1287,22 +1288,25 @@ class: left
 # Zusammenfassung
 
 
-* Makroökonomische Perspektive
-   * Gesellschaften können Produktivitätssteigerungen unterschiedlich nutzen
+* **Makroökonomische Perspektive**
+   * Produktivitätssteigerungen können unterschiedlich genutzt werden (Trade-offs)
       * Steigerung der Produktionsmenge
-      * Verkürzung Arbeitszeit vs. "Befreiung" von Arbeit (für bestimmte Gruppen)
+      * Verkürzung Arbeitszeit vs. "Befreiung" von Arbeit (für best. Gruppen)
+   * Bevölkerungsalterung "absorbiert" (einen Teil d.) Produktivitätsfortschritte 
 --
-* Mikroökonomische Perspektive
-   * Rational Choice erklärt, wie Produktivitätssteigerungen historische genutzt wurden
+
+* **Mikroökonomische Perspektive**
+   * Rational Choice Modelle können erklären, wie Produktivitätssteigerungen historisch genutzt wurden
    * Kritik an der Rational Choice Theorie
-      * Verhaltensökonomik
+      * Verhaltensökonomik (s.u.)
       * Dennoch: Konzeptioneller Wert (hier: EE vs. SE)
 --
-* Verhaltensökonomik
-   * Reale Menschen verhalten sich nicht wie der homo oeconomicus
+* **Verhaltensökonomik**
+   * Reale Menschen verhalten sich nicht (immer) wie der 
+*homo oeconomicus*
    * Dennoch kann Verhalten vorhergesagt werden
-      * menschliches Verhalten ist "predictably irrational" (D. Ariely)
-      * Hintergrund: Heuristiken erleichtern das Zurechtfinden in einer komplexen Welt
+      * menschliches Verhalten ist "**predictably irrational**" (D. Ariely)
+      * Hintergrund: **Heuristiken** erleichtern das "Zurechtfinden" in komplexer Welt
 
 
 ???
