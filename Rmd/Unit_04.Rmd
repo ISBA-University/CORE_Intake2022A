@@ -12,7 +12,7 @@ output:
     css: 
         - default
         - ../schoder_theme.css
-        - ../xaringan-themer.css
+        - xaringan-themer.css
     includes:
       after_body: ../insert-logo.html
     lib_dir: ../libs
@@ -73,7 +73,8 @@ class: left
 
 .pull-left[
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_url("https://www.wiwo.de/images/50_pol_serie_smith1-jpg/5939106/4-format7001.jpg",height = "550px")
+knitr::include_graphics("../images/unit04/Smith_(wiwo).jpg")
+
 ```
 ]
 
@@ -110,7 +111,7 @@ knitr::include_url('https://www.hs-kempten.de/fakultaet-tourismus-management/akt
 ]
 .panel[.panel-name[Flugreisen?]
 ```{r, echo=FALSE,fig.align='center', out.width = '100%'}
-knitr::include_url('https://www.tagesschau.de/inland/greunen-chefin-baerbock-will-kurzfluege-abschaffen-101.html',height = '480px')
+knitr::include_url('https://www.dw.com/de/gr%C3%BCnen-chefin-baerbock-will-kurzstreckenfl%C3%BCge-abschaffen/a-57548037',height = '480px')
 ```
 ]
 .panel[.panel-name[und sonst?]
@@ -153,11 +154,15 @@ class: left
 
 # Einordnung: Klimapolitik in Zahlen
 
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url("https://www.bmuv.de/fileadmin/Daten_BMU/Pools/Broschueren/klimaschutz_zahlen_2021_bf.pdf",height = "550px")
+```{r, echo=FALSE,fig.align='center',out.width='75%'}
+knitr::include_graphics("../images/unit04/Klimaschutz_in_Zahlen_(BMWK_2023).png")
 ```
 
+.quelle[Quelle: [BMWK (2023).](https://www.bmwk.de/Redaktion/DE/Publikationen/Klimaschutz/klimaschutz-in-zahlen.html)]
+
+
 ???
+
 * Nationaler Flugverkehr: 1,4% der Emmissionen im Verkehr (S. 36)
 * Dann Seite 26:
     * Verkehrssektor 2020 (2019): 146 (163) Mio t $CO_2$-Äquivalente, d.h. 146/739=20% (163/805=20%)
