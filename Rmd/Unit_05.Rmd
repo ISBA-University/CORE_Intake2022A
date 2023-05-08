@@ -70,10 +70,19 @@ class: left
 
 # Motivation
 
-
+.panelset[
+.panel[.panel-name[Tarifverhandlungen]
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_url("https://www.tagesschau.de/inland/innenpolitik/analyse-lindner-101.html",height = "550px")
+knitr::include_url("https://www.faz.net/aktuell/wirtschaft/4-tage-woche-wegen-fachkraeftemangel-durchsetzbar-18806734.html",height = "500px")
 ```
+]
+.panel[.panel-name[4-Tage Woche?]
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_url("https://www.iwd.de/artikel/interview-ich-warne-davor-arbeit-beliebig-zu-verdichten-580285/",height = "500px")
+```
+]
+]
+
 
 
 
@@ -322,7 +331,7 @@ class:
 .panelset[
 .panel[.panel-name[Aktuell]
 ```{r, echo=FALSE,fig.align='center',out.width="100%"}
-knitr::include_url("https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittel-preise-verhandlungen-handel-101.html",height = "480px")
+knitr::include_url("https://www.deutschlandfunk.de/zuliefererstreit-bei-vw-bei-dieser-einkaufsstrategie-langt-100.html",height = "480px")
 ```
 ]
 .panel[.panel-name[Verhandlungsmacht]
@@ -344,6 +353,8 @@ knitr::include_url("https://www.tagesschau.de/wirtschaft/verbraucher/lebensmitte
 
 ???
 
+* Mit den Tarifverhandlungen haben wir schon ein Bsp. ökonomischer Macht gesehen.
+* Ein weiteres Beispiel findet sehen wir hier im Kontext der Automobilindustrie
 * Die Freiheit "nein sagen zu können"
 * Konkurrenz bedeutet Alternativen zu haben und damit Macht zu begrenzen
 
