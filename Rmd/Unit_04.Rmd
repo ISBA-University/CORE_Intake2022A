@@ -145,7 +145,28 @@ knitr::include_url('https://taz.de/Massnahmen-gegen-die-Klimakrise/!5762016/',he
     * wir brauchen sicher Regeln - aber keine Regel kann alle Eventualitäten erfassen 
   * Wir brauchen Regeln und Moral
 
+---
+name: Falk
+class: left
 
+# Verhaltensökonomik
+
+
+.pull-left[
+<br>
+Buchtipp:
+<br>
+<br>
+```{r,echo=FALSE,out.height="100%"}
+knitr::include_graphics("https://www.penguinrandomhouse.de/content/edition/supplement/998943_72dpi_xl.jpg")
+```
+]
+.pull-right[
+<br>
+Podcast:
+<br>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1x1ncXopC1yDfaLfLqX0cb?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+]
 
 ---
 name: Klima
