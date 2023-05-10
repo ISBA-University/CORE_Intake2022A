@@ -75,8 +75,8 @@ class: left
 
 # Arbitrage und die Bedeutung von Transaktionskosten
 
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://www.berliner-zeitung.de/wirtschaft-verantwortung/sagenhafte-profite-bei-lng-es-ist-eine-unglaubliche-arbitrage-li.257539',height='550px')
+```{r, echo=FALSE,fig.align='center',out.width='80%'}
+knitr::include_graphics('../images/unit06/Profite_LNG_(BerlinerZeitung).png')
 ```
 
 
@@ -452,7 +452,7 @@ class: left
 # Unternehmen: Hierarchie oder spontane Ordnung?
 
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://www.handelsblatt.com/unternehmen/management/job-agiles-arbeiten-flache-hierarchien-offene-bueroraeume-die-new-work-illusion/24896462.html',height='550px')
+knitr::include_url('https://www.deutschlandfunknova.de/beitrag/arbeit-wie-viel-hierarchie-wir-brauchen',height='550px')
 ```
 
 
