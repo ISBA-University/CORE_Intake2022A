@@ -942,9 +942,11 @@ class: left
 
 # Realitätscheck zur Preisdiskriminierung
 
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://www.wiwo.de/unternehmen/handel/neue-strategie-dm-verabschiedet-sich-vom-einheitspreis/24960714.html',height="550px")
+```{r, echo=FALSE,fig.align='center',out.width='80%'}
+knitr::include_graphics('../images/unit07/dm_Preispolitik_(wiwo_20190830).png')
 ```
+
+.quelle[Quelle: [Wirtschaftswoche (30.08.2019)](https://www.wiwo.de/unternehmen/handel/neue-strategie-dm-verabschiedet-sich-vom-einheitspreis/24960714.html)].
 
 ???
 
