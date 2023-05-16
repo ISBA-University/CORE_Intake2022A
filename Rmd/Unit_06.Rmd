@@ -775,8 +775,8 @@ class: left
 .panelset[
 .panel[.panel-name[Arbeitseinsatz]
 * Wenn der Arbeitseinsatz kaum direkt messbar ist, warum arbeiten Arbeitnehmer teilweise mit sehr hohem Engagement?
-  * Arbeitsethik
-  * Verantwortungsgefühl/Pflichtbewusstsein
+  * Freude/Interesse
+  * Arbeitsethik, Pflichtgefühl (Kollegen, Arbeitgeber etc.)
   * Dankbarkeit für Arbeitsbedingungen (Reziprozität)
   * Belohnungen für messbare Ergebnisse
   * Beförderung
@@ -804,6 +804,13 @@ knitr::include_url('https://www.core-econ.org/the-economy/book/images/web/figure
 
 
 ???
+
+* Faktoren der Arbeitsmotivation 
+  * intrinsische Motivation
+    * Freude, Interesse
+    * Pflichtgefühl (ggb. Kollegen, Arbeitgeber)
+  * extrinsische Motivation (Anstellungsrente)
+
 * To calculate employment rent (the net cost of job loss), sum all the benefits and costs of the job and subtract the value of the next best option (other employment or unemployment benefits), i.e. the
 reservation wage.
 
