@@ -925,6 +925,10 @@ Steigung der Besten-Antwort-Kurve entspricht der MRT
 * Diminishing marginal returns
   At higher levels of wages, however, increases in wages have a smaller effect on effort.
 
+* We have drawn the best response function in Figure 6.4 under the assumption that unemployment is expected to last 44 weeks.
+    * If the expected duration were to change, the best response function would change too. 
+    * If economic conditions worsened, increasing unemployment duration, Maria’s employment rent would be higher. 
+    * So for any wage, her best response would be to exert a higher level of effort.
 
 ---
 name: Employer
