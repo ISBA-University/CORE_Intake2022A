@@ -74,14 +74,23 @@ layout: true
 name: aktuell
 class: left
 
-# Preisbildung, Kosten und Zahlungsbereitschaft
+# Inflation in mikroökonomischer Perspektive 
 
 ```{r,echo=FALSE}
-knitr::include_url('https://www.tagesschau.de/wirtschaft/verbraucher/strompreis-preisbildung-101.html',height="550px")
+knitr::include_url('https://www.npr.org/2023/05/11/1175487806/corporate-profit-price-spiral-wage-debate',height="550px")
 ```
 
+???
 
-
+* Anhören:
+  * Min 0 bis ca. 2:30 Inflation und traditionelle Erklärungen
+  * 3:30 bis 7:35 Vorstellung I. Weber und Markup-Pricing und Wettbewerbseffekte von Bottlenecks
+  * 14:25 bis 17:25 Markup-Pricing und Akzeptanz von Preiserhöhungen durch Kunden
+  * 18:20 bis 21:32  Rolle von Erwartungen
+  * 21:50 bis 25:59 Profit-Price-Spiral und Geld- vs. Fiskalpolitik (Zinserhöhungen vs. Windfall-Profit-Tax)
+  
+* Aufgrund der Bedeutung von Erwartungen funktioniert die unsichtbare Hand nicht zwangsläufig. Koordination durch Politik kann die Situation verbessern
+  
 ---
 name: Lernziele
 class: inverse, left, middle
@@ -456,9 +465,7 @@ class: left
 knitr::include_url('../images/unit08/xetra_auktionsplan.png',height='480px')
 ```
 .quellePanURL[[Börse Frankfurt](https://www.xetra.com/xetra-de/handel/handelsmodelle/auktionsplan)]
-
 ]
-
 .panel[.panel-name[Individuell]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
 knitr::include_url('../images/unit08/inlandsorder_comdirect.png',height='480px')
@@ -471,13 +478,17 @@ knitr::include_url('../images/unit08/offenes_Orderbuch_(20200420).png',height='4
 .quellePanURL[[Börse Frankfurt](https://www.boerse-frankfurt.de/aktien/offenes-orderbuch/DE0008469008)]
 ]
 .panel[.panel-name[Diagramm]
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('../images/unit08/AT-NE_Bofinger_S46.png',height='480px')
+```{r, echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',out.height='75%'}
+source(xfun::from_root("R/Orderbuch.R"))
+library(plotly)
+ggplotly(p)
 ```
 ]
 ]
 
-??? 
+
+
+???
 
 * Bid (Geldkurs): gibt an, was ein möglicher Wertpapierkäufer bereit ist, für ein Wertpapier zu bezahlen. Es ist also der höchste Preis, den eine Person, eine Bank oder Broker bietet, um ein Wertpapier zu kaufen.
 
@@ -580,9 +591,25 @@ class: left
 name: icecream
 class: left
 
+# Differenzierungsstrategien vs. Absprachen
 
-<iframe src="https://www.npr.org/player/embed/1154775118/1155543493" width="100%" height="500" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
+```{r,echo=FALSE}
+knitr::include_url('https://www.npr.org/player/embed/1154775118/1155543493',height="550px")
+```
+
+
+???
+
+* Eiscreme in Supermärkten
+  * Ben&Jerry nur Junky
+  * Häagen Dazs nur plain
+  
+* Dagegen Eiscreme in den Brand-Eisdielen in allen Variationen
+
+* Absprache oder Differenzierungsstrategie?
+  * Problem der Identifikation
+  * So oder so: etwa 50% höhere Preise für Konsumenten
 
 ---
 name: Analysen
