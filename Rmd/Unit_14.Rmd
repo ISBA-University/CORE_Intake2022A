@@ -78,7 +78,7 @@ class: left
 .panelset[
 .panel[.panel-name[Aktuell]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url("https://www.tagesschau.de/wirtschaft/konjunktur/ein-jahr-wumms-konjunkturprogramm-corona-101.html",height = "470px")
+knitr::include_url("https://www.sueddeutsche.de/wirtschaft/eu-konjunktur-hilfsprogramme-inflation-1.5655907",height = "470px")
 ```
 ]
 .panel[.panel-name[StabG (1967)]
@@ -168,16 +168,14 @@ class: left
 knitr::include_graphics('../images/unit13/Wirtschaftskreislauf_500.png')
 ```
 
-.quellePan[Eigene Darstellung.]
+.quellePanURL[Eigene Darstellung.]
 ]
 .panel[.panel-name[Beispiel Corona]
 ```{r ,echo=FALSE, message=FALSE,fig.align='center',outwidth='100%'}
 knitr::include_graphics('../images/unit14/Covid19_Wirtschaftskreislauf_(Baldwin_2020).png')
 ```
 
-<br>
-
-.quellePan[Quelle: [Baldwin (2020).](https://voxeu.org/article/how-should-we-think-about-containing-covid-19-economic-crisis)]
+.quellePanURL[Quelle: [Baldwin (2020).](https://voxeu.org/article/how-should-we-think-about-containing-covid-19-economic-crisis)]
 ]
 ]
 
@@ -365,7 +363,7 @@ $$C(Y)=c_o+c_1\cdot Y$$
 
 <div id="highcharts-uRwRqhZoT"><script src="https://app.everviz.com/inject/uRwRqhZoT/" defer="defer"></script></div>
 
-.quellePan[Quelle: [IW Köln](https://app.everviz.com/inject/uRwRqhZoT/).]
+.quellePanURL[Quelle: [IW Köln](https://app.everviz.com/inject/uRwRqhZoT/).]
 ]
 ]
 
@@ -1045,8 +1043,8 @@ class: left
 ## Explizite vs. implizite Schulden
 
 
-```{r,echo=FALSE,fig.align='center'}
-knitr::include_url('https://i2.wp.com/www.fiwi1.uni-freiburg.de/forschungszentrum-generationenvertraege/wp-content/uploads/sites/2/2020/03/fiskn1.png?ssl=1',height = '500px')
+```{r,echo=FALSE,fig.align='center',out.width='100%'}
+knitr::include_graphics('https://i2.wp.com/www.fiwi1.uni-freiburg.de/forschungszentrum-generationenvertraege/wp-content/uploads/sites/2/2020/03/fiskn1.png?ssl=1')
 ```
 
 .quelle[Quelle: [Forschungszentrum Generationenverträge.](https://www.fiwi1.uni-freiburg.de/forschungszentrum-generationenvertraege/fiskalische-nachhaltigkeit/)]

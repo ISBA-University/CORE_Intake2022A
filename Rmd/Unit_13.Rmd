@@ -367,9 +367,9 @@ class: left
 # Bruttoinlandsprodukt 2021
 
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('../images/unit13/BIP_2021.PNG',height='550px')
+knitr::include_url('../images/unit13/BIP_2022.PNG',height='550px')
 ```
-.quelle[Quelle: [Destatis (2022)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf).]
+.quelle[Quelle: [Destatis (2023)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf).]
 
 
 
@@ -590,13 +590,13 @@ class: left
 
 .panelset[
 .panel[.panel-name[Benzin]
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://www.iwkoeln.de/fileadmin/user_upload/Presse/IW-Nachrichten/Inflation_1.png',height='480px')
+```{r, echo=FALSE,fig.align='center',out.width='90%'}
+knitr::include_graphics('https://www.iwkoeln.de/fileadmin/user_upload/Presse/IW-Nachrichten/Inflation_1.png')
 ```
 ]
 .panel[.panel-name[Strom]
-```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('https://www.iwkoeln.de/fileadmin/user_upload/Presse/IW-Nachrichten/Inflation_2.png',height='480px')
+```{r, echo=FALSE,fig.align='center',out.width='90%'}
+knitr::include_graphics('https://www.iwkoeln.de/fileadmin/user_upload/Presse/IW-Nachrichten/Inflation_2.png')
 ```
 ]
 ]
@@ -615,15 +615,17 @@ class: left
 .panelset[
 .panel[.panel-name[Übersicht]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('../images/unit13/Ursachen_Inflation_small.png',height='480px')
+knitr::include_graphics('../images/unit13/Ursachen_Inflation_small.png')
 ```
+
 .quellePanURL[Eigene Darstellung.]
 ]
 .panel[.panel-name[Quantitätstheorie]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('../images/unit13/QTheory.png',height='480px')
+knitr::include_graphics('../images/unit13/QTheory.png')
 ```
-.quellePanURL[Quelle: [Bauman (2011, S. 48)](https://www.amazon.de/dp/0809033615/ref=cm_sw_em_r_mt_dp_5WNEX8X23YD4AVNFM9Y9).]
+
+.quellePan[Quelle: [Bauman (2011, S. 48)](https://www.amazon.de/dp/0809033615/ref=cm_sw_em_r_mt_dp_5WNEX8X23YD4AVNFM9Y9).]
 ]
 ]
 
@@ -703,11 +705,11 @@ class: left
 # Wachstumsraten seit 1970
 
 ```{r, echo=FALSE,fig.align='center'}
-knitr::include_graphics('../images/unit13/Wachstumsraten_(destatis_2022_S10).png')
+knitr::include_graphics('../images/unit13/Wachstumsraten_(destatis_2023_S10).png')
 ```
 
 
-.quelle[[Statistisches Bundesamt (2022, S. 10)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf;jsessionid=9082E91CA5A2D0DAB3E72CBDA8DA25EA.live711?__blob=publicationFile)]
+.quelle[[Statistisches Bundesamt (2022, S. 10)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf?__blob=publicationFile)]
 
 
 ???
@@ -897,23 +899,22 @@ class: left
 
 
 .panelset[.panel[.panel-name[Statistik]
-```{r, echo=FALSE,fig.align='center'}
+```{r, echo=FALSE,fig.align='center',out.width='67%'}
 knitr::include_graphics('../images/unit13/Zyklen.png')
 ```
 
-<br>
 
-.quellePan[Quelle: [Savoiu/Manea (2014)](https://www.revistadestatistica.ro/wp-content/uploads/2014/05/RRS01_2014_A1.pdf).]
+.quellePanURL[Quelle: [Savoiu/Manea (2014)](https://www.revistadestatistica.ro/wp-content/uploads/2014/05/RRS01_2014_A1.pdf).]
 
 ]
 .panel[.panel-name[Kondratieff]
-```{r, echo=FALSE,fig.align='center'}
-knitr::include_url('https://www.researchgate.net/profile/Gerhard-Posch/publication/318360851/figure/fig2/AS:515180092026881@1499839913439/Kondratieff-Zyklen-Technische-Innovationen_W640.jpg')
+```{r, echo=FALSE,fig.align='center',out.width='80%'}
+knitr::include_graphics('https://www.researchgate.net/profile/Gerhard-Posch/publication/318360851/figure/fig2/AS:515180092026881@1499839913439/Kondratieff-Zyklen-Technische-Innovationen_W640.jpg')
 ```
 
 <br>
 
-.quellePan[Quelle: [Posch/Bruckner (2017)](https://www.researchgate.net/publication/318360851_Schweisstechnik_im_Zeichen_von_Internet_of_Things_und_Industrie_40)]
+.quellePanURL[Quelle: [Posch/Bruckner (2017)](https://www.researchgate.net/publication/318360851_Schweisstechnik_im_Zeichen_von_Internet_of_Things_und_Industrie_40)]
 ]
 ]
 
@@ -958,7 +959,7 @@ class: left
 .panelset[
 .panel[.panel-name[Kreislaufbetrachtung]
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
-knitr::include_url('images/Covid_Kreislauf_(Baldwin_2020).png',height='480px')
+knitr::include_graphics('../images/unit13/Covid_Kreislauf_(Baldwin_2020).png')
 ```
 .quellePanURL[Quelle: [Baldwin (2020)](https://voxeu.org/article/how-should-we-think-about-containing-covid-19-economic-crisis).]
 ]
@@ -1016,9 +1017,14 @@ knitr::include_graphics('../images/unit13/Wachstumsbeitraege_Nachfragekomponente
 knitr::include_graphics('../images/unit13/Wachstumsbeitraege_Nachfragekomponenten_(destatis_2022_S12)_small.png')
 ```
 ]
+.panel[.panel-name[2022]
+```{r, echo=FALSE,fig.align='center'}
+knitr::include_graphics('../images/unit13/Wachstumsbeitraege_Nachfragekomponenten_(destatis_2023_S12)_small.png')
+```
+]
 ]
 
-.quelle[[Statistisches Bundesamt (2021/2022, S. 12)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf?__blob=publicationFile&v=6)]
+.quelle[[Statistisches Bundesamt (2021/2022/2023, S. 12)](https://www.destatis.de/DE/Themen/Wirtschaft/Volkswirtschaftliche-Gesamtrechnungen-Inlandsprodukt/Publikationen/Downloads-Inlandsprodukt/zusammenhaenge-pdf-0310100.pdf?__blob=publicationFile)]
 
 
 ???
@@ -1379,7 +1385,7 @@ knitr::include_graphics('../images/unit13/arbeitslosenquote_(BpB_S146)_small.png
 ```{r, echo=FALSE,fig.align='center',out.width='100%'}
 knitr::include_url('../images/unit13/Eckwerte_Arbeitsmarkt_(Destatis_2022).png',height='475px')
 ```
-.quellePanURL[Quelle: [Destatis (2022)](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html).]
+.quellePanURL[Quelle: [Destatis (2023)](https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/eckwerttabelle.html).]
 ]
 ]
 
